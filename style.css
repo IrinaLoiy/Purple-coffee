@@ -1,0 +1,24 @@
+.header {
+  background-color: aquamarine;
+  height: 20%;
+  width: 100%;
+}
+.main {
+  background-color: burlywood;
+  height: 60%;
+  width: 100%;
+}
+.footer {
+  background-color: violet;
+  height: 20%;
+  width: 100%;
+}
+.root {
+  background-color: brown;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.body {
+  margin: 0;
+}
