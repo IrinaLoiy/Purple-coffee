@@ -1,24 +1,80 @@
-.header {
-  background-color: aquamarine;
-  height: 20%;
-  width: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
 }
-.main {
-  background-color: burlywood;
-  height: 60%;
-  width: 100%;
-}
-.footer {
-  background-color: violet;
-  height: 20%;
-  width: 100%;
-}
-.root {
-  background-color: brown;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+
 .body {
-  margin: 0;
+  font: size 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #0f141e;
+  background: #f1f1f1;
+}
+
+.name {
+  color: purple;
+  margin: 20px 150px;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 3%;
+  padding: 20px;
+}
+
+.bg-gren {
+  background-color: green;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.container {
+  margin: auto;
+  width: 500px;
+}
+
+.img {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin: 20px 50px;
+}
+
+a {
+  color: cadetblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: red;
+}
+
+.btn {
+  background-color: black;
+  padding: 10px;
+  color: #f1f1f1;
+  border: 0px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: darkblue;
 }
